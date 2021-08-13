@@ -1,0 +1,4 @@
+# Ignore environment variables and User-uploaded content
+wp-config.php
+wp-content/uploads
+
