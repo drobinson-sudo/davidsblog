@@ -5,6 +5,15 @@
  * @package David's Blog
  */
 
+if (! defined( 'DAVIDSBLOG_DIR_PATH')) {
+    define( 'DAVIDSBLOG_DIR_PATH', untrailingslashit( get_template_directory()));
+}
+
+echo '<pre>';
+print_r( DAVIDSBLOG_DIR_PATH);
+
+require_once DAVIDSBLOG_DIR_PATH . '/inc/helpers/autoloader.php';
+
  function davidsblog_enqueue_scripts() {
 
     // Register styles
