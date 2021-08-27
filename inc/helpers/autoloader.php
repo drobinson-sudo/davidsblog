@@ -2,7 +2,7 @@
 /**
  * Autoloader file for theme.
  *
- * @package Aquila
+ * @package David's Blog
  */
 
 namespace DAVIDS_BLOG\Inc\Helpers;
