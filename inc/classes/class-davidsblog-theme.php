@@ -14,9 +14,10 @@
      use Singleton;
 
      protected function __construct() {         
-         //load class
+         //load classes
 
          Assets::get_instance();
+         Menus::get_instance();
 
          $this->setup_hooks();
         }     
