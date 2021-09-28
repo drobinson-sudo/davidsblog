@@ -9,7 +9,7 @@
 ?>
 
     <div class="content">
-        Content
+        Content Blog
     </div>
     
 <?php
