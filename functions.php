@@ -14,6 +14,7 @@ if (! defined ( 'DAVIDSBLOG_DIR_URI')) {
 }
 
 require_once DAVIDSBLOG_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once DAVIDSBLOG_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function davidsblog_get_theme_instance() {
     \DAVIDS_BLOG\Inc\DAVIDSBLOG_THEME::get_instance();
