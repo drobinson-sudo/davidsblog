@@ -8,5 +8,8 @@
  ?>
 
  <div class="entry-meta mb-3">
-    <?php davidsblog_posted_on(); ?>
+    <?php 
+        davidsblog_posted_on(); 
+        davidsblog_posted_by();
+    ?>
 </div>

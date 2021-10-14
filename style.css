@@ -25,3 +25,12 @@ img {
 .updated:not(.published) {
     display: none;
 }
+
+h2 a:link {
+    text-decoration: none;
+}
+
+/* Nav Item  */
+.nav-item:hover .dropdown-menu:not(.show){
+    display:block;
+}
