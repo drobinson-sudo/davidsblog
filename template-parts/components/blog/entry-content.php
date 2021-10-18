@@ -25,10 +25,20 @@
                     the_title( '<span class="screen-reader-text">"', '"</span>', false )    
                 )
             );
+
+            wp_link_pages(
+                [
+                    'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'davidsblog' ),
+                    'after' => '</div>',
+                ]
+                );
+
         } else {
             davidsblog_the_excerpt();
             printf( '<br>');
             echo davidsblog_excerpt_more();
         }
+
+        
     ?>
  </div>
